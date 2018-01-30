@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restful-mybatis:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="restfulmybatis.war">
+      <element id="artifact" artifact-name="restful-mybatis:war exploded" />
+    </root>
+  </artifact>
+</component>

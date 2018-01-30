@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <!-- Global Mapper Enables caching -->
+        <setting name="cacheEnabled" value="true"/>
+
+        <!-- Print sql statement -->
+        <setting name="logPrefix" value="com.hungta.dao."/>
+
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+
+        <!-- Query, close the associated object for immediate loading to improve performance -->
+        <setting name="lazyLoadingEnabled" value="false"/>
+
+        <!-- Cache SQL for bulk update operations to improve performance BATCH, SIMPLE -->
+        <setting name="defaultExecutorType" value="BATCH"/>
+
+        <!-- Table{create_time} -> Entity{createTime} -->
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+
+
+    </settings>
+
+</configuration>
